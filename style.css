@@ -1,0 +1,85 @@
+/* Resetleme: Sayfa içindeki tüm öğelerin marj ve dolgularını sıfırla,
+   font ailesini belirle ve kutu modelini border-box olarak ayarla. */
+   * {
+    margin: 0;
+    padding: 0;
+    font-family: "Courier New", Courier, monospace;
+    box-sizing: border-box;
+  }
+  
+  /* Sayfa arka plan rengi ve metin rengi ayarları. */
+  body {
+    background: #002339;
+    color: #fff;
+  }
+  
+  /* Ana içerik alanının genel stil ayarları. */
+  .container {
+    margin: 12%; /* Dışarıdan boşluk bırak */
+    width: 90%; /* Genişlik */
+    max-width: 700px; /* Maksimum genişlik */
+  }
+  
+  /* Gösterim alanının stil ayarları. */
+  .display {
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    background: #fff;
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 26px 20px;
+    border-radius: 5px;
+  }
+  
+  /* Başlık stil ayarları */
+  .container h1 {
+    font-weight: 900;
+    font-size: 45px;
+  }
+  
+  /* Başlık altındaki özel renkli span etiketi stil ayarları. */
+  .container h1 span {
+    color: #019f55;
+    border-bottom: 4px solid #019f55;
+    padding-bottom: 4px;
+  }
+  
+  /* Gösterim alanındaki resim öğesi stil ayarları. */
+  .display img {
+    width: 30px;
+    cursor: pointer;
+  }
+  
+  /* Gösterim alanındaki input kutusu stil ayarları. */
+  .display input {
+    border: none;
+    outline: none;
+    font-size: 24px;
+    font-weight: 548;
+  }
+  
+  /* Sayfa içindeki buton stil ayarları. */
+  .container button {
+    border: none;
+    outline: none;
+    background: #019f55;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 26px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Buton içindeki resim stil ayarları. */
+  .container button img {
+    width: 28px;
+    margin-right: 10px;
+  }
+  
